@@ -17,6 +17,7 @@ import {
 import {
   TbBrandKotlin
 } from "react-icons/tb";
+import { HiOutlineNewspaper } from "react-icons/hi";
 import porfolioData from "./Data/portofolio.json";
 import ImageKeys from "./Data/ImageKeys";
 //@ts-ignore
@@ -97,6 +98,19 @@ function App() {
                 LinkedIn{" "}
                 <IoLogoLinkedin
                   className="text-blue-700 inline-block ml-2 mb-1 group-hover:animate-bounce"
+                  size={"2rem"}
+                />
+              </button>
+              <button
+                onClick={() =>
+                  window.location.assign("https://github.com/maulana421")
+                }
+                className="group bg-white shadow-md text-black px-5 py-2 rounded-md font-bold text-lg
+                cursor-pointer hover:shadow-cyan-300"
+              >
+                Resume{" "}
+                <HiOutlineNewspaper
+                  className="inline-block ml-2 mb-1 group-hover:animate-bounce"
                   size={"2rem"}
                 />
               </button>
