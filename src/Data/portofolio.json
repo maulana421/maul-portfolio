@@ -32,11 +32,21 @@
     {
         "title": "MyAirFire",
         "image": "myairfiree",
-        "about": "app"
+        "about": "a mobile application used to make ticket reservations, with many features that make it easier for customers to order."
     },
     {
         "title": "Si DARAHKU",
-        "image": "myairfiree",
-        "about": "app"
+        "image": "darahku",
+        "about": "si DARAHKU is an application used to find the location of hospitals that facilitate blood donation, and to find a place to donate blood for free."
+    },
+    {
+        "title": "Attendance Sys",
+        "image": "attendace",
+        "about": "A simple application used by teachers to take attendance for students who have just arrived, entered, with the help of AI, the application can detect the names of students who are present."
+    },
+    {
+        "title": "Literctarsa",
+        "image": "literctarsa",
+        "about": "A website used by children to search for learning books and recognize animal names with the help of photos and videos."
     }
 ]
