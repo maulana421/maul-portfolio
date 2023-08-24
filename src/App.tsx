@@ -120,8 +120,8 @@ function App() {
               />
             </div>
             <h1 className="text-white font-mono text-xl text-center w-[80%]">
-              {">"} I have 3 years of experience on Mobile Development, and 1
-              years of experience on Backend Development.
+              {">"} I have experience build mobile application with 
+              Android native and Flutter, and also like to build UI Design.
             </h1>
           </div>
         </div>
