@@ -1,11 +1,9 @@
-import { FuxionSpark, Juber, Pavel, Sipdeh, m2ubiz, mae, myairfiree } from "../assets";
+import { myairfiree, attendace, darahku, literctarsa } from "../assets";
 
 export default {
-  FuxionSpark,
-  Juber,
-  Pavel,
-  Sipdeh,
-  m2ubiz,
-  mae,
-  myairfiree
+  
+  myairfiree,
+  attendace,
+  darahku,
+  literctarsa
 };

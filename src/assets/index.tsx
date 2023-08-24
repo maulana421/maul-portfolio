@@ -1,9 +1,6 @@
-import Juber from "./juber.png";
-import Sipdeh from "./sipdeh.png";
-import Pavel from "./pavel.png";
-import FuxionSpark from "./fuxionSpark.png";
-import m2ubiz from "./m2ubiz.png"
-import mae from "./mae.png"
 import myairfiree from "./myairfiree.png";
+import attendace from "./attendance.png";
+import darahku from "./darahku.png";
+import literctarsa from "./literctarsa.png"
 
-export { Juber, Sipdeh, Pavel, FuxionSpark, m2ubiz, mae, myairfiree  };
+export { myairfiree, attendace, darahku, literctarsa  };
