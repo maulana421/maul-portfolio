@@ -4,5 +4,6 @@ import Pavel from "./pavel.png";
 import FuxionSpark from "./fuxionSpark.png";
 import m2ubiz from "./m2ubiz.png"
 import mae from "./mae.png"
+import myairfiree from "./myairfiree.png";
 
-export { Juber, Sipdeh, Pavel, FuxionSpark, m2ubiz, mae  };
+export { Juber, Sipdeh, Pavel, FuxionSpark, m2ubiz, mae, myairfiree  };
