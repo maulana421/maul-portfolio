@@ -2,21 +2,21 @@ import React, { ReactNode, useEffect, useRef, useState } from "react";
 import { NavBar, PortofolioCard, TechCard } from "./Components";
 import {
   IoCodeSlashOutline,
-  IoLogoReact,
   IoLogoGithub,
   IoLogoLinkedin,
 } from "react-icons/io5";
 import {
-  SiGraphql,
   SiJavascript,
-  SiLaravel,
-  SiMysql,
-  SiNodedotjs,
-  SiPhp,
-  SiRedux,
-  SiTailwindcss,
-  SiTypescript,
+  SiFlutter,
+  SiDart,
+  SiFigma,
+  SiReact,
+  SiMongodb,
+  SiAndroidstudio
 } from "react-icons/si";
+import {
+  TbBrandKotlin
+} from "react-icons/tb";
 import porfolioData from "./Data/portofolio.json";
 import ImageKeys from "./Data/ImageKeys";
 //@ts-ignore
@@ -145,46 +145,36 @@ function App() {
 
         <div className="flex flex-row justify-center px-1 lg:px-32 items-center gap-2 lg:gap-6 md:gap-4 mt-10 flex-wrap">
           <TechCard
-            title="TypeScript"
-            children={<SiTypescript className="text-blue-900" size={"100%"} />}
+            title="Kotlin"
+            children={<TbBrandKotlin className="text-purple-900" size={"100%"} />}
+          />
+          <TechCard
+            title="Flutter"
+            children={<SiFlutter className="text-blue-500" size={"100%"} />}
+          />
+          <TechCard
+            title="Dart"
+            children={<SiDart className="text-blue-800" size={"100%"} />}
+          />
+          <TechCard
+            title="Figma"
+            children={<SiFigma className="text-violet-600" size={"100%"} />}
           />
           <TechCard
             title="React Native"
-            children={<IoLogoReact className="text-cyan-500" size={"100%"} />}
-          />
-          <TechCard
-            title="Redux"
-            children={<SiRedux className="text-purple-600" size={"100%"} />}
-          />
-          <TechCard
-            title="PHP"
-            children={<SiPhp className="text-blue-900" size={"100%"} />}
-          />
-          <TechCard
-            title="Express JS"
-            children={<SiNodedotjs className="text-green-600" size={"100%"} />}
-          />
-          <TechCard
-            title="Laravel"
-            children={<SiLaravel className="text-red-400" size={"100%"} />}
-          />
-          <TechCard
-            title="SQL"
-            children={<SiMysql className="text-blue-500" size={"100%"} />}
-          />
-          <TechCard
-            title="Graphql"
-            children={<SiGraphql className="text-pink-600" size={"100%"} />}
-          />
-          <TechCard
-            title="Tailwind"
-            children={<SiTailwindcss className="text-cyan-500" size={"100%"} />}
+            children={<SiReact className="text-blue-600" size={"100%"} />}
           />
           <TechCard
             title="Javascript"
-            children={
-              <SiJavascript className="text-yellow-200" size={"100%"} />
-            }
+            children={<SiJavascript className="text-yellow-400" size={"100%"} />}
+          />
+          <TechCard
+            title="MongoDB"
+            children={<SiMongodb className="text-green-600" size={"100%"} />}
+          />
+          <TechCard
+            title="Android Studio"
+            children={<SiAndroidstudio className="text-green-400" size={"100%"} />}
           />
         </div>
         <div className="flex flex-col flex-1 bg-white mt-10  lg:px-32 p-1 md:px-24">
