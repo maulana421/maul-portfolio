@@ -103,7 +103,7 @@ function App() {
               </button>
               <button
                 onClick={() =>
-                  window.location.assign("https://github.com/maulana421")
+                  window.location.assign("https://drive.google.com/file/d/1k9pDq_NSapVXR1vd8_oO9SkY_byaaF5T/view?usp=sharing")
                 }
                 className="group bg-white shadow-md text-black px-5 py-2 rounded-md font-bold text-lg
                 cursor-pointer hover:shadow-cyan-300"
